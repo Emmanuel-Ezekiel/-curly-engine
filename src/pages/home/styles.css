@@ -1,0 +1,131 @@
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    height: 100vh;
+}
+
+.hero-name {
+    text-align: center;
+    font-size: 62px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 800px;
+    height: 171px;
+}
+
+
+.hero-message {
+    width: 680px;
+    height: 65px; 
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 300;
+    margin-top: 12px;
+}
+
+.hero-message span {
+    font-size: 21px;
+    font-weight: medium;
+    color: #FFFFFF;
+}
+
+
+.countDown-container {
+    background: #FFFFFF;
+    width: 120px;
+    height: 134px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0;
+    border-radius: 9px;
+}
+
+span {
+    color: #000000;
+}
+
+.timer-container {
+    display: flex;
+    gap: 20px;
+    width: 450px;
+    margin-top: 36px;
+}
+
+.number {
+    text-align: center;
+    font-size: 47px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.time {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.input-field {
+    width: 526px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.input-field input {
+    width: 244px;
+    border: none;
+    padding: 5px;
+}
+
+input[type="text"] {
+    background-color: #210045;
+    border-bottom: 1px solid #F6F7F9;
+}
+
+.email-container {
+    width: 664px;
+    height: 67px;
+    background: #FFFFFF;
+    border-radius: 51px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Join-btn {
+    width: 350px;
+    height: 67px;
+    background: #271AC1;
+    box-shadow: 0px 0px 10px #09090991;
+    padding: 1.25rem 2.5rem;
+    margin-left: .8rem;
+    border-radius: 51px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.input {
+    width: 400px;
+    height: 24px;
+    margin-left: 3rem;
+    border: none;
+}
+
+.input[type="text"] {
+    background: #ffffff;
+    border-bottom: none;
+}
+.color {
+    color: #ffffff;
+}
