@@ -58,6 +58,7 @@ body {
   /* background-color: #210045; */
   background: transparent url('./assets/Path\ 1.svg') 0% 0% no-repeat padding-box;
   opacity: 1;
+  width: 1920px;
 }
 a {
   text-decoration: none;

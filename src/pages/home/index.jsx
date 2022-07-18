@@ -1,10 +1,13 @@
 import React from 'react'
 import './styles.css'
 import { Data } from './data'
+import Navbar from "../../components/navBar/index";
+import Footer from "../../components/footer/index";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <section className="hero">
         <span className="hero-name">SOMETHING AWESOME IS COMING SOON</span>
         <div className="hero-message">
@@ -36,7 +39,12 @@ const Home = () => {
             <span>Join our waiting list</span>
           </div>
         </div>
+        <div className="circle1"></div>
+        <div className="circle2"></div>
+        <div className="circle3"></div>
+        <div className="circle4"></div>
       </section>
+      <Footer />
     </>
   );
 }
